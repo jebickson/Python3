@@ -137,7 +137,7 @@ print(name.rjust(100))
 #zfill() = Add zeros to left
 print(name.zfill(100))
 
-#removeprefix() = Remove prefix
+#removeprefix()= Remove prefix
 print(name.removeprefix("Jebickson"))
 
 #removesuffix() = Removes a suffix
