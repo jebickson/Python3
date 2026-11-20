@@ -290,3 +290,44 @@ if search in products:
     print("Product found! Price:", products[search])
 else:
     print("Product not found!")"""
+
+# Real-World Example: Object Validation
+"""
+user = None
+if user is None:
+    print("User not logged in")
+else:
+    print("User logged in")
+    """
+
+#Student Data Analysis System
+"""name = input("Enter student name: ")
+
+#Student marks
+maths = float(input("Enter Maths marks: "))
+science = float(input("Enter Science marks: "))
+computer = float(input("Enter Computer marks: "))
+
+
+#Attendance perceentage
+attendance = float(input("Enter attendance percentage: "))
+
+#Arithmetic operating
+total = maths + science + computer
+average = total / 3
+
+# Comparison and logical operations
+if average >= 90 and attendance >- 75:
+    result = "Excellent"
+elif average >= 60 and attendance >= 75:
+    result = "Pass"
+else:
+    result = "Fail" 
+
+#Display results
+print("\n --------------STUDENT ANALYSIS -----------")
+print("Student Name:", name)
+print("Total Marks:", total)
+print("Average Marks:", average)
+print("Attendance Percentage:", attendance)
+print("Result:", result)"""
