@@ -141,3 +141,152 @@ calculator()"""
         except ValueError:
             print("Invalid input. Please enter numeric values.")
 calculator()"""
+
+#Login Validation System
+
+"""correct_username = "jebi"
+correct_password = "1234"
+
+username = input("Enter username:")
+password = input("Enter password:")
+
+if username == correct_username and password == correct_password:
+    print("Login succcessful!")
+else:
+    print("Invalid username or password.")"""
+
+# Login Validation Using or
+
+"""username = input("Enter username:")
+
+if username == "jebi" or username == "admin":
+    print("Login successful!")
+else:
+    print("Invalid username.")"""
+
+#Login Validation Using not
+"""
+password = input("Enter password:  ")
+
+if not password==123 :
+    print("Password cannot be empty.")
+else:
+    print("Password accepted.")"""
+
+# Basic Shopping Cart Program
+
+"""product_name = "Laptop" 
+price = 50000
+quantity = 2
+
+total = price * quantity
+
+print("Product:", product_name)
+print("Price:", price)
+print("Quantity:", quantity)
+print("Total:", total)"""
+
+# Shopping Cart with Discount
+"""product_name = "Mobile"
+price = 15000
+quantity = 2
+
+total = price * quantity
+
+if total >= 10000:
+    discount = total * 0.10
+else:
+    discount = 0
+
+final_price = total - discount
+
+print("Product:", product_name)
+print("Total:", total)
+print("Discount:", discount)
+print("Final Price:",final_price)"""
+
+#Shopping Car with Multiple Products
+
+"""laptop_price = 50000
+mouse = 500
+keyboard = 1000
+
+laptop_quantity = 1
+mouse_quantity = 2
+keyboard_quantity = 1
+
+laptop_total = laptop_price * laptop_quantity
+mouse_total = mouse * mouse_quantity
+keyboard_total = keyboard * keyboard_quantity
+
+cart_total = laptop_total + mouse_total + keyboard_total
+
+if cart_total >= 10000:
+    discount = cart_total * 0.10
+else:
+    discount = 0
+
+final_price = cart_total - discount
+
+print("Laptop Total:", laptop_total)
+print("Mouse Total:", mouse_total)
+print("Keyboard Total:", keyboard_total)
+print("Cart Total:", cart_total)
+print("Discount:", discount)
+print("Final Price:", final_price)
+"""
+
+#Basic Search Using
+
+"""products = ["Laptop", "Mobile", "Mouse", "Keyboard"]
+
+search = input("Enter product name: ")
+
+if search in products:
+    print("Product found!")
+else:
+    print("Product not found!")"""
+
+#Search Using not in
+
+"""students = ["Sam", "John","David", "Alex"]
+
+name = input("Enter student name:")
+
+if name not in students:
+    print("Student not found!")
+else:
+    print("Student found!")
+    """
+
+# Case-Insensitive Search
+#The following program allows users to search without worrying about uppercase or lowercase letters.
+
+"""products = ["Laptop", "Mobile", "Mouse", "Keyboard"]
+
+search = input("Search products: ").lower()
+
+#Convert all products to lowercase
+
+products = [product.lower() for product in products]
+
+if search in products:
+    print("product available")
+else:
+    print("product not available")"""
+
+#Search Functionality Using Dictonary
+
+"""products = {
+    "Laptop" : 50000,
+    "mobile" : 20000,
+    "mouse" : 500,
+    "keyboard" : 1000
+}
+
+search = input("Enter product name:").lower()
+
+if search in products:
+    print("Product found! Price:", products[search])
+else:
+    print("Product not found!")"""
